@@ -53,3 +53,13 @@ body {
 }
 
 
+@media (max-width: 480px) {
+    .container {
+        width: 100vh;
+    }
+
+    .panel:nth-of-type(4), 
+    .panel:nth-of-type(5) {
+        display: none;
+    }  
+}
